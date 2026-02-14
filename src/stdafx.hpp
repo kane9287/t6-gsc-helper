@@ -42,3 +42,4 @@ using namespace std::literals;
 #include "gsc/functions.hpp"
 #include "gsc/methods.hpp"
 #include "gsc/script.hpp"
+#include "gsc/barrier_rebuild.hpp"

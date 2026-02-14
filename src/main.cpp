@@ -61,6 +61,7 @@ BOOL APIENTRY DllMain(HMODULE module_, DWORD ul_reason_for_call, LPVOID reserved
 		game::set_mode();
 		gsc::function::init();
 		gsc::method::init();
+		gsc::barrier::init(); // Initialize barrier rebuild system
 
 		gsc::function::add("function_example", 0, 4, function_example);
 		gsc::method::add("method_example", 0, 4, method_example);
